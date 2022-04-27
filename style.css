@@ -1,1 +1,59 @@
+body {
+    background: black;
+}
 
+h1 {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+    position: absolute;
+    top: 90%;
+}
+
+.aboutme {
+    left: 20%;
+    font-size: 50px;
+    transition: 0.5s
+}
+
+.projects {
+    right: 20%;
+    font-size: 50px
+}
+
+.about-me-wrapper {
+    position: absolute;
+    background: white;
+    top: 99%;
+    left: 10%;
+    right: 10%;
+    height: 1px;
+    display: none;
+    transition: 0.5s;
+    font-size: 40px
+}
+
+/*
+
+div {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.test {
+    background: white;
+    height: 110px;
+    z-index: 2;
+}
+
+.test2 {
+    background: red;
+} */
