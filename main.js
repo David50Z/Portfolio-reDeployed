@@ -191,7 +191,7 @@ function funcsnowball2() {
     
     $('#snowball2').css('transition-timing-function', 'linear')
     
-    $('#snowball2').css('transform', 'translate(' + x2.left + 'px,  1300px)')
+    $('#snowball2').css('transform', 'translate(' + x2.left + 'px, '+ height + 'px)')
     
     console.log(x2.left)
     
@@ -222,7 +222,7 @@ function funcsnowball3() {
     
     $('#snowball3').css('transition-timing-function', 'linear')
     
-    $('#snowball3').css('transform', 'translate(' + x3.left + 'px, 1300px)')
+    //$('#snowball3').css('transform', 'translate(' + x3.left + 'px,' + height  + 'px)')
     
     console.log(height)
     
@@ -254,7 +254,7 @@ function funcsnowball3() {
         
         $('#snowball4').css('transition-timing-function', 'linear')
         
-        $('#snowball4').css('transform', 'translate(' + x4.left + 'px, 1300px)')
+        $('#snowball4').css('transform', 'translate(' + x4.left + 'px,' + height  + 'px)')
         
         console.log(x4.left)
         
@@ -285,7 +285,7 @@ function funcsnowball5() {
     
     $('#snowball5').css('transition-timing-function', 'linear')
     
-    $('#snowball5').css('transform', 'translate(' + x5.left + 'px, 1300px)')
+    $('#snowball5').css('transform', 'translate(' + x5.left + 'px,' + height  + 'px)')
     
     console.log(x5.left)
     
@@ -314,7 +314,7 @@ function funcsnowball5() {
         
         $('#snowball6').css('transition-timing-function', 'linear')
         
-        $('#snowball6').css('transform', 'translate(' + x6.left + 'px, 1300px)')
+        $('#snowball6').css('transform', 'translate(' + x6.left + 'px,' + height  + 'px)')
         
         console.log(height)
         
@@ -345,7 +345,7 @@ function funcsnowball5() {
             
             $('#snowball7').css('transition-timing-function', 'linear')
             
-            $('#snowball7').css('transform', 'translate(' + x7.left + 'px, 1300px)')
+            $('#snowball7').css('transform', 'translate(' + x7.left + 'px,' + height  + 'px)')
             
             console.log(x7.left)
             
@@ -375,7 +375,7 @@ function funcsnowball5() {
                 
                 $('#snowball8').css('transition-timing-function', 'linear')
                 
-                $('#snowball8').css('transform', 'translate(' + x8.left + 'px, 1300px)')
+                $('#snowball8').css('transform', 'translate(' + x8.left + 'px,' + height  + 'px)')
                 
                 console.log(x8.left)
                 
@@ -405,7 +405,7 @@ function funcsnowball5() {
                     
                     $('#snowball9').css('transition-timing-function', 'linear')
                     
-                    $('#snowball9').css('transform', 'translate(' + x9.left + 'px, 1300px)')
+                    $('#snowball9').css('transform', 'translate(' + x9.left + 'px,' + height  + 'px)')
                     
                     console.log(x9.left)
                     
@@ -434,7 +434,7 @@ function funcsnowball5() {
                         
                         $('#snowball10').css('transition-timing-function', 'linear')
                         
-                        $('#snowball10').css('transform', 'translate(' + x10.left + 'px, 1300px)')
+                        $('#snowball10').css('transform', 'translate(' + x10.left + 'px,' + height  + 'px)')
 
                     }
 
@@ -462,7 +462,7 @@ function funcsnowball5() {
                         
                         $('#snowball11').css('transition-timing-function', 'linear')
                         
-                        $('#snowball11').css('transform', 'translate(' + x11.left + 'px, 1300px)')
+                        $('#snowball11').css('transform', 'translate(' + x11.left + 'px,' + height  + 'px)')
                         
                         console.log(x11.left)
                         
@@ -492,7 +492,7 @@ function funcsnowball5() {
                             
                             $('#snowball12').css('transition-timing-function', 'linear')
                             
-                            $('#snowball12').css('transform', 'translate(' + x12.left + 'px, 1300px)')
+                            $('#snowball12').css('transform', 'translate(' + x12.left + 'px,' + height  + 'px)')
 
                         }
 
@@ -521,7 +521,7 @@ function funcsnowball5() {
                             
                             $('#snowball13').css('transition-timing-function', 'linear')
                             
-                            $('#snowball13').css('transform', 'translate(' + x13.left + 'px, 1300px)')
+                            $('#snowball13').css('transform', 'translate(' + x13.left + 'px,' + height  + 'px)')
 
                         }
 
@@ -548,7 +548,7 @@ function funcsnowball5() {
                             
                             $('#snowball14').css('transition-timing-function', 'linear')
                             
-                            $('#snowball14').css('transform', 'translate(' + x14.left + 'px, 1300px)')
+                            $('#snowball14').css('transform', 'translate(' + x14.left + 'px,' + height  + 'px)')
                             
                             console.log(x14.left)
                             
@@ -578,7 +578,7 @@ function funcsnowball5() {
                                 
                                 $('#snowball15').css('transition-timing-function', 'linear')
                                 
-                                $('#snowball15').css('transform', 'translate(' + x15.left + 'px, 1300px)')
+                                $('#snowball15').css('transform', 'translate(' + x15.left + 'px,' + height  + 'px)')
                                 
                                 console.log(x15.left)
                                 
