@@ -1,5 +1,6 @@
 body {
     background: black;
+    resize: none;
 }
 
 h1 {
@@ -17,28 +18,134 @@ h2 {
     top: 90%;
 }
 
-.aboutme {
+.am {
+    position: absolute;
     left: 20%;
     font-size: 50px;
-    transition: 0.5s
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
 }
 
 .projects {
     right: 20%;
-    font-size: 50px
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s
 }
 
-.about-me-wrapper {
+
+
+
+
+
+.am-wrapper {
     position: absolute;
     background: white;
     top: 99%;
     left: 10%;
     right: 10%;
-    height: 1px;
-    display: none;
+    height: 0px;
+    displa: none;
     transition: 0.5s;
     font-size: 40px
 }
+
+.am-text {
+    display: none;
+    padding-top: 300px;
+    padding-left: 40px;
+    padding-right: 20px
+}
+
+.am-back {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    top: 93%;
+    left: 43%;
+    margin: 0;
+    padding: 0;
+    display: none
+}
+
+img {
+    position: absolute;
+    left: 35%;
+    right: 40%;
+    height: 200px;
+    width: 250px;
+    top: 7%;
+    border-radius: 50%;
+    display: none;
+    
+}
+
+.pr-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    top: 99%;
+    left: 10%;
+    right: 10%;
+    height: 0px;
+    background: white;
+    transition: 0.5s
+}
+
+#project1, #project2, #project3 {
+    position: relative;
+    top: 20px;
+    padding: 50px;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    background: black;
+    display: none;
+    color: white
+}
+
+.pr-back {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    top: 93%;
+    left: 43%;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+
+
+
+
+
+
+
+.snowball {
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+    width: 10px;
+    height: 10px;
+    transform: translate(300px, -50px);
+    background: white;
+    border-radius: 50%;
+    /*transition: 10s; */
+    transition-timing-function: linear;
+}
+
+
+
+
+
+
+
+
 
 /*
 
