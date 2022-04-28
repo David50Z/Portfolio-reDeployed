@@ -135,8 +135,7 @@ img {
     transform: translate(300px, -50px);
     background: white;
     border-radius: 50%;
-    /*transition: 10s; */
-    transition-timing-function: linear;
+    /*transition: 0.1s; */
 }
 
 
