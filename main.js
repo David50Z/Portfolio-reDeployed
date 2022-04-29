@@ -5,9 +5,9 @@ $('.am').on('click', function() {
     $('.am-text').css('display', 'block')
     $('img').css('display', 'block')
     if(window.innerWidth > 800) {
-        $('.am').css('top', '4%')
+        $('.am').css('top', '15%')
     } else {
-        $('.am').css('top', '4%')
+        $('.am').css('top', '15%')
     }
     $('.projects').css('opacity', '0')
     $('.am-back').css('display', 'inline')

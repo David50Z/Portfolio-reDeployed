@@ -50,7 +50,7 @@ h2 {
     height: 0px;
     displa: none;
     transition: 0.5s;
-    font-size: 40px
+    font-size: 20px
 }
 
 .am-text {
@@ -162,6 +162,41 @@ img {
     border-radius: 80%
 }
 
+@media screen and (max-width: 800px) {
+    .am-wrapper {
+        font-size: 20px
+    }
+
+    .am-back {
+        font-size: 30px
+    }
+
+    .pr-back {
+        font-size: 30px
+    }
+
+    .am {
+        font-size: 30px
+    }
+
+    .projects {
+        font-size: 30px;
+    }
+
+    .snow-mound {
+        bottom: 4%
+    }
+
+    h1 {
+        font-size: 37px;
+    }
+
+    .snow {
+        height: 33%;
+        bottom: -130px
+    }
+
+}
 
 
 
