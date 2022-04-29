@@ -19,7 +19,7 @@ $('.am').on('click', function() {
 $('.am-back').on('click', function() {
     $('img').css('display', 'none')
     $('.am-text').css('display', 'none')
-    $('.am-wrapper').css('transition', '0.5s')
+    $('.am-wrapper').css('transition', '0.7s')
     $('.am-wrapper').css('height', '1px')
     $('.am-wrapper').css('top', '99%')
     $('.projects').css('opacity', '1')
@@ -46,7 +46,7 @@ $('.projects').on('click', function() {
 
 $('.pr-back').on('click', function() {
     $('.projectimg').css('display', 'none')
-    $('.pr-wrapper').css('transition', '0.5s')
+    $('.pr-wrapper').css('transition', '0.7s')
     $('.pr-wrapper').css('height', '0px')
     $('.pr-wrapper').css('top', '99%')
     $('.am').css('opacity', '1')
@@ -185,7 +185,7 @@ $('#snowball1').css('transform', 'translateX(' + randomNum1 + 'px)')
 
 let x1 = snowball1.position()
 
-$('#snowball1').css('transition', '10s')
+$('#snowball1').css('transition', '7s')
 
 $('#snowball1').css('transition-timing-function', 'linear')
 
@@ -210,7 +210,7 @@ function funcsnowball2() {
 
     let x2 = snowball2.position()
     
-    $('#snowball2').css('transition', '10s')
+    $('#snowball2').css('transition', '7s')
     
     $('#snowball2').css('transition-timing-function', 'linear')
     
@@ -225,7 +225,7 @@ function funcsnowball2() {
     }
     
 
-    setTimeout(funcsnowball2, 1000)
+    setTimeout(funcsnowball2, 500)
 
     //setTimeout(repeat2, 1)
 
@@ -247,7 +247,7 @@ function funcsnowball3() {
 
     let x3 = snowball3.position()
     
-    $('#snowball3').css('transition', '10s')
+    $('#snowball3').css('transition', '7s')
     
     $('#snowball3').css('transition-timing-function', 'linear')
     
@@ -263,7 +263,7 @@ function funcsnowball3() {
     }
     
 
-    setTimeout(funcsnowball3, 2000)
+    setTimeout(funcsnowball3, 1000)
 
     //setTimeout(repeat3, 1000)
 
@@ -290,7 +290,7 @@ function funcsnowball3() {
         
         let x4 = snowball4.position()
         
-        $('#snowball4').css('transition', '10s')
+        $('#snowball4').css('transition', '7s')
         
         $('#snowball4').css('transition-timing-function', 'linear')
         
@@ -305,7 +305,7 @@ function funcsnowball3() {
         }
         
     
-        setTimeout(funcsnowball4, 3000)
+        setTimeout(funcsnowball4, 1500)
     
         //setTimeout(repeat4, 2000)
 
@@ -332,7 +332,7 @@ function funcsnowball5() {
     
     let x5 = snowball5.position()
     
-    $('#snowball5').css('transition', '10s')
+    $('#snowball5').css('transition', '7s')
     
     $('#snowball5').css('transition-timing-function', 'linear')
     
@@ -348,7 +348,7 @@ function funcsnowball5() {
     }
     
 
-    setTimeout(funcsnowball5, 4000)
+    setTimeout(funcsnowball5, 2000)
 
     //setTimeout(repeat5, 3000)
     
@@ -371,7 +371,7 @@ function funcsnowball5() {
     
         let x6 = snowball6.position()
         
-        $('#snowball6').css('transition', '10s')
+        $('#snowball6').css('transition', '7s')
         
         $('#snowball6').css('transition-timing-function', 'linear')
         
@@ -386,7 +386,7 @@ function funcsnowball5() {
         }
         
     
-        setTimeout(funcsnowball6, 5000)
+        setTimeout(funcsnowball6, 2500)
     
         //setTimeout(repeat6, 4000)
 
@@ -411,7 +411,7 @@ function funcsnowball5() {
         
             let x7 = snowball7.position()
             
-            $('#snowball7').css('transition', '10s')
+            $('#snowball7').css('transition', '7s')
             
             $('#snowball7').css('transition-timing-function', 'linear')
             
@@ -426,7 +426,7 @@ function funcsnowball5() {
             }
             
         
-            setTimeout(funcsnowball7, 6000)
+            setTimeout(funcsnowball7, 3000)
         
         //    setTimeout(repeat7, 5000)
             
@@ -450,7 +450,7 @@ function funcsnowball5() {
             
                 let x8 = snowball8.position()
                 
-                $('#snowball8').css('transition', '10s')
+                $('#snowball8').css('transition', '7s')
                 
                 $('#snowball8').css('transition-timing-function', 'linear')
                 
@@ -465,7 +465,7 @@ function funcsnowball5() {
                 }
                 
             
-                setTimeout(funcsnowball8, 7000)
+                setTimeout(funcsnowball8, 3500)
             
         //        setTimeout(repeat8, 6000)
 
@@ -489,7 +489,7 @@ function funcsnowball5() {
                 
                     let x9 = snowball9.position()
                     
-                    $('#snowball9').css('transition', '10s')
+                    $('#snowball9').css('transition', '7s')
                     
                     $('#snowball9').css('transition-timing-function', 'linear')
                     
@@ -504,7 +504,7 @@ function funcsnowball5() {
                     }
                     
                 
-                    setTimeout(funcsnowball9, 8000)
+                    setTimeout(funcsnowball9, 4000)
                 
             //        setTimeout(repeat9, 10000)
                     
@@ -527,7 +527,7 @@ function funcsnowball5() {
                     
                         let x10 = snowball10.position()
                         
-                        $('#snowball10').css('transition', '10s')
+                        $('#snowball10').css('transition', '7s')
                         
                         $('#snowball10').css('transition-timing-function', 'linear')
                         
@@ -540,7 +540,7 @@ function funcsnowball5() {
                     }
                     
                 
-                    setTimeout(funcsnowball10, 9000)
+                    setTimeout(funcsnowball10, 4500)
                 
            //         setTimeout(repeat10, 8000)
 
@@ -564,7 +564,7 @@ function funcsnowball5() {
                     
                         let x11 = snowball11.position()
                         
-                        $('#snowball11').css('transition', '10s')
+                        $('#snowball11').css('transition', '7s')
                         
                         $('#snowball11').css('transition-timing-function', 'linear')
                         
@@ -579,7 +579,7 @@ function funcsnowball5() {
                         }
                         
                     
-                        setTimeout(funcsnowball11, 10000)
+                        setTimeout(funcsnowball11, 5000)
                     
             //            setTimeout(repeat11, 10000)
                         
@@ -603,7 +603,7 @@ function funcsnowball5() {
                         
                             let x12 = snowball12.position()
                             
-                            $('#snowball12').css('transition', '10s')
+                            $('#snowball12').css('transition', '7s')
                             
                             $('#snowball12').css('transition-timing-function', 'linear')
                             
@@ -616,7 +616,7 @@ function funcsnowball5() {
                         }
                         
                     
-                        setTimeout(funcsnowball12, 11000)
+                        setTimeout(funcsnowball12, 5500)
                     
             //            setTimeout(repeat12, 10000)
 
@@ -641,7 +641,7 @@ function funcsnowball5() {
                         
                             let x13 = snowball13.position()
                             
-                            $('#snowball13').css('transition', '10s')
+                            $('#snowball13').css('transition', '7s')
                             
                             $('#snowball13').css('transition-timing-function', 'linear')
                             
@@ -654,7 +654,7 @@ function funcsnowball5() {
                         }
                         
                     
-                        setTimeout(funcsnowball13, 12000)
+                        setTimeout(funcsnowball13, 6000)
                     
                 //        setTimeout(repeat13, 11000)
 
@@ -677,7 +677,7 @@ function funcsnowball5() {
                         
                             let x14 = snowball14.position()
                             
-                            $('#snowball14').css('transition', '10s')
+                            $('#snowball14').css('transition', '7s')
                             
                             $('#snowball14').css('transition-timing-function', 'linear')
                             
@@ -688,11 +688,11 @@ function funcsnowball5() {
                             }
 
                             function repeat14() {
-                                setInterval(funcsnowball3, 10000)
+                                setInterval(funcsnowball3, 6500)
                             }
                             
                         
-                            setTimeout(funcsnowball14, 13000)
+                            setTimeout(funcsnowball14, 6500)
                         
               //              setTimeout(repeat14, 12000)
                             
@@ -716,7 +716,7 @@ function funcsnowball5() {
                             
                                 let x15 = snowball15.position()
                                 
-                                $('#snowball15').css('transition', '10s')
+                                $('#snowball15').css('transition', '7s')
                                 
                                 $('#snowball15').css('transition-timing-function', 'linear')
                                 
@@ -731,7 +731,7 @@ function funcsnowball5() {
                                 }
                                 
                             
-                                setTimeout(funcsnowball15, 14000)
+                                setTimeout(funcsnowball15, 7000)
                             
                    //             setTimeout(repeat15, 13000)
                                 
@@ -754,7 +754,7 @@ function funcsnowball5() {
                                 
                                     let x16 = snowball16.position()
                                     
-                                    $('#snowball16').css('transition', '10s')
+                                    $('#snowball16').css('transition', '7s')
                                     
                                     $('#snowball16').css('transition-timing-function', 'linear')
                                     
@@ -769,7 +769,7 @@ function funcsnowball5() {
                                     }
                                     
                                 
-                                    setTimeout(funcsnowball16, 15000)
+                                    setTimeout(funcsnowball16, 7500)
                                 
                 //                    setTimeout(repeat16, 14000)
                                     
@@ -791,7 +791,7 @@ function funcsnowball5() {
                                     
                                         let x17 = snowball17.position()
                                         
-                                        $('#snowball17').css('transition', '10s')
+                                        $('#snowball17').css('transition', '7s')
                                         
                                         $('#snowball17').css('transition-timing-function', 'linear')
                                         
@@ -806,7 +806,7 @@ function funcsnowball5() {
                                         }
                                         
                                     
-                                        setTimeout(funcsnowball17, 16000)
+                                        setTimeout(funcsnowball17, 8000)
                                     
                   //                      setTimeout(repeat17, 15000)
                                         
@@ -829,7 +829,7 @@ function funcsnowball5() {
                                     
                                         let x18 = snowball18.position()
                                         
-                                        $('#snowball18').css('transition', '10s')
+                                        $('#snowball18').css('transition', '7s')
                                         
                                         $('#snowball18').css('transition-timing-function', 'linear')
                                         
@@ -844,7 +844,7 @@ function funcsnowball5() {
                                         }
                                         
                                     
-                                        setTimeout(funcsnowball18, 17000)
+                                        setTimeout(funcsnowball18, 8500)
                                     
                    //                     setTimeout(repeat18, 16000)
                                         
@@ -866,7 +866,7 @@ function funcsnowball5() {
                                     
                                         let x19 = snowball19.position()
                                         
-                                        $('#snowball19').css('transition', '10s')
+                                        $('#snowball19').css('transition', '7s')
                                         
                                         $('#snowball19').css('transition-timing-function', 'linear')
                                         
@@ -881,7 +881,7 @@ function funcsnowball5() {
                                         }
                                         
                                     
-                                        setTimeout(funcsnowball19, 18000)
+                                        setTimeout(funcsnowball19, 9000)
                                     
                     //                    setTimeout(repeat19, 110000)
                                         
@@ -903,7 +903,7 @@ function funcsnowball5() {
                                     
                                         let x20 = snowball20.position()
                                         
-                                        $('#snowball20').css('transition', '10s')
+                                        $('#snowball20').css('transition', '7s')
                                         
                                         $('#snowball20').css('transition-timing-function', 'linear')
                                         
@@ -918,7 +918,7 @@ function funcsnowball5() {
                                         }
                                         
                                     
-                                        setTimeout(funcsnowball20, 19000)
+                                        setTimeout(funcsnowball20, 9500)
                                     
                      //                   setTimeout(repeat20, 18000)
                                         
@@ -929,7 +929,9 @@ function funcsnowball5() {
 
                                     setTimeout(animation, 1)
 
-                                    setInterval(animation, 19000)
+                                    setInterval(animation, 9500)
+
+                                    //setInterval(animation, 19500)
 
 
 /*
@@ -947,7 +949,7 @@ let x = snowball.position()
 
 console.log(x.left)
 
-$('.snowball').css('transition', '10s')
+$('.snowball').css('transition', '7s')
 
 $('.snowball').css('transition-timing-function', 'linear')
 
