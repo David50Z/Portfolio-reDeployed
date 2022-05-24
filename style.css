@@ -10,6 +10,8 @@ h1 {
     left: 10%;
     right: 10%;
     font-size: 50px;
+    z-index: 4;
+    transition: 0.5s
 }
 
 h2 {
@@ -74,7 +76,7 @@ h2 {
 
 img {
     position: absolute;
-    left: 35%;
+    left: 40%;
     right: 40%;
     height: 200px;
     width: 250px;
@@ -82,6 +84,17 @@ img {
     border-radius: 50%;
     display: none;
     
+}
+
+.projectPic {
+    position: absolute;
+    left: 35%;
+    right: 40%;
+    height: 350px;
+    width: 350px;
+    top: 7%;
+    border-radius: 5%;
+    display: none;
 }
 
 .pr-wrapper {

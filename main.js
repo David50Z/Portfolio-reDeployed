@@ -3,7 +3,7 @@ $('.am').on('click', function() {
     $('.am-wrapper').css('height', '80%')
     $('.am-wrapper').css('top', '10%')
     $('.am-text').css('display', 'block')
-    $('img').css('display', 'block')
+    $('.Kusou').css('display', 'block')
     if(window.innerWidth > 800) {
         $('.am').css('top', '15%')
     } else {
@@ -11,13 +11,14 @@ $('.am').on('click', function() {
     }
     $('.projects').css('opacity', '0')
     $('.am-back').css('display', 'inline')
+    $('h1').css('opacity', '0')
 })
 
 
 
 
 $('.am-back').on('click', function() {
-    $('img').css('display', 'none')
+    $('.Kusou').css('display', 'none')
     $('.am-text').css('display', 'none')
     $('.am-wrapper').css('transition', '0.7s')
     $('.am-wrapper').css('height', '1px')
@@ -25,6 +26,7 @@ $('.am-back').on('click', function() {
     $('.projects').css('opacity', '1')
     $('.am-back').css('display', 'none')
     $('.am').css('top', '90%')
+    $('h1').css('opacity', '1')
 })
 
 
@@ -41,6 +43,8 @@ $('.projects').on('click', function() {
     }
     $('.am').css('opacity', '0')
     $('.pr-back').css('display', 'inline')
+    $('h1').css('opacity', '0')
+    $('.projectPic').css('display', 'block')
 })
 
 
@@ -52,6 +56,8 @@ $('.pr-back').on('click', function() {
     $('.am').css('opacity', '1')
     $('.pr-back').css('display', 'none')
     $('.projects').css('top', '90%')
+    $('h1').css('opacity', '1')
+    $('.projectPic').css('display', 'none')
 })
 
 
