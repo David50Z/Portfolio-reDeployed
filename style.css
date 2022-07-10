@@ -87,11 +87,14 @@ img {
 }
 
 .projectPic {
-    position: absolute;
-    left: 35%;
+    position: relative;
+    /*left: 35%;
     right: 40%;
-    height: 350px;
-    width: 350px;
+    /*height: 20%;*/
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    width: 60%;
     top: 7%;
     border-radius: 5%;
     display: none;
