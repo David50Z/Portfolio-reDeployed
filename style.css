@@ -100,6 +100,18 @@ img {
     display: none;
 }
 
+.project {
+    position: relative;
+    height: 300px
+}
+
+.projectTitle {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
 .pr-wrapper {
     position: absolute;
     display: flex;
