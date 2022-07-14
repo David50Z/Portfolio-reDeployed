@@ -1,3 +1,20 @@
+function disableScroll() {
+    // Get the current page scroll position
+    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+  
+        // if any scroll is attempted, set this to the previous value
+        window.onscroll = function() {
+            window.scrollTo(scrollLeft, scrollTop);
+        };
+}
+  
+disableScroll()
+
+
+
+
+
 $('.am').on('click', function() {
     $('.am-wrapper').css('display', 'block')
     $('.am-wrapper').css('height', '80%')
@@ -9,7 +26,10 @@ $('.am').on('click', function() {
     } else {
         $('.am').css('top', '15%')
     }
+    $('.am').css('opacity', '0')
     $('.projects').css('opacity', '0')
+    $('.cm').css('opacity', '0')
+    $('.sk').css('opacity', '0')
     $('.am-back').css('display', 'inline')
     $('h1').css('opacity', '0')
 })
@@ -23,9 +43,82 @@ $('.am-back').on('click', function() {
     $('.am-wrapper').css('transition', '0.7s')
     $('.am-wrapper').css('height', '1px')
     $('.am-wrapper').css('top', '99%')
+    $('.am').css('opacity', '1')
     $('.projects').css('opacity', '1')
+    $('.cm').css('opacity', '1')
+    $('.sk').css('opacity', '1')
     $('.am-back').css('display', 'none')
     $('.am').css('top', '90%')
+    $('h1').css('opacity', '1')
+})
+
+
+
+
+$('.sk').on('click', function() {
+    $('.sk-wrapper').css('display', 'block')
+    $('.sk-wrapper').css('height', '80%')
+    $('.sk-wrapper').css('top', '10%')
+    if(window.innerWidth > 800) {
+        $('.sk').css('top', '15%')
+    } else {
+        $('.sk').css('top', '15%')
+    }
+    $('.sk').css('opacity', '0')
+    $('.projects').css('opacity', '0')
+    $('.am').css('opacity', '0')
+    $('.cm').css('opacity', '0')
+    $('.sk-back').css('display', 'inline')
+    $('h1').css('opacity', '0')
+})
+
+
+
+
+$('.sk-back').on('click', function() {
+    $('.sk-wrapper').css('transition', '0.7s')
+    $('.sk-wrapper').css('height', '1px')
+    $('.sk-wrapper').css('top', '99%')
+    $('.projects').css('opacity', '1')
+    $('.am').css('opacity', '1')
+    $('.cm').css('opacity', '1')
+    $('.sk').css('opacity', '1')
+    $('.sk-back').css('display', 'none')
+    $('.sk').css('top', '90%')
+    $('h1').css('opacity', '1')
+})
+
+
+
+$('.cm').on('click', function() {
+    $('.cm-wrapper').css('display', 'block')
+    $('.cm-wrapper').css('height', '80%')
+    $('.cm-wrapper').css('top', '10%')
+    if(window.innerWidth > 800) {
+        $('.cm').css('top', '15%')
+    } else {
+        $('.cm').css('top', '15%')
+    }
+    $('.cm').css('opacity', '0')
+    $('.projects').css('opacity', '0')
+    $('.am').css('opacity', '0')
+    $('.sk').css('opacity', '0')
+    $('.cm-back').css('display', 'inline')
+    $('h1').css('opacity', '0')
+})
+
+
+
+$('.cm-back').on('click', function() {
+    $('.cm-wrapper').css('transition', '0.7s')
+    $('.cm-wrapper').css('height', '1px')
+    $('.cm-wrapper').css('top', '99%')
+    $('.projects').css('opacity', '1')
+    $('.am').css('opacity', '1')
+    $('.sk').css('opacity', '1')
+    $('.cm').css('opacity', '1')
+    $('.cm-back').css('display', 'none')
+    $('.cm').css('top', '90%')
     $('h1').css('opacity', '1')
 })
 
@@ -41,7 +134,10 @@ $('.projects').on('click', function() {
     } else {
         $('.projects').css('top', '4%')
     }
+    $('.projects').css('opacity', '0')
     $('.am').css('opacity', '0')
+    $('.sk').css('opacity', '0')
+    $('.cm').css('opacity', '0')
     $('.pr-back').css('display', 'inline')
     $('h1').css('opacity', '0')
     $('.projectPic').css('display', 'block')
@@ -53,7 +149,10 @@ $('.pr-back').on('click', function() {
     $('.pr-wrapper').css('transition', '0.7s')
     $('.pr-wrapper').css('height', '0px')
     $('.pr-wrapper').css('top', '99%')
+    $('.projects').css('opacity', '1')
     $('.am').css('opacity', '1')
+    $('.sk').css('opacity', '1')
+    $('.cm').css('opacity', '1')
     $('.pr-back').css('display', 'none')
     $('.projects').css('top', '90%')
     $('h1').css('opacity', '1')

@@ -1,6 +1,7 @@
 body {
     background: black;
-    min-height: 800px
+    min-height: 800px;
+    overflow: hidden; /* Hide scrollbars */  
 }
 
 h1 {
@@ -23,19 +24,59 @@ h2 {
 
 .am {
     position: absolute;
-    left: 20%;
+    left: 10%;
     font-size: 50px;
     transition: 0.5s;
     margin: 0;
     padding: 0;
 }
 
+.am:hover {
+    color: rgb(0, 174, 255);
+    cursor: pointer;
+}
+
+.sk {
+    position: absolute;
+    left: 62%;
+    transform: translate(-62%, 0%);
+    font-size: 50px;
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+}
+
+.sk:hover {
+    color: rgb(0, 174, 255);
+    cursor: pointer;
+}
+
+.cm {
+    position: absolute;
+    left: 38%;
+    transform: translate(-38%, 0%);
+    font-size: 50px;
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+}
+
+.cm:hover {
+    color: rgb(0, 174, 255);
+    cursor: pointer;
+}
+
 .projects {
-    right: 20%;
+    right: 10%;
     font-size: 50px;
     margin: 0;
     padding: 0;
     transition: 0.5s
+}
+
+.projects:hover {
+    color: rgb(0, 174, 255);
+    cursor: pointer;
 }
 
 
@@ -50,7 +91,7 @@ h2 {
     left: 10%;
     right: 10%;
     height: 0px;
-    displa: none;
+    display: none;
     transition: 0.5s;
     font-size: 20px
 }
@@ -74,17 +115,126 @@ h2 {
     z-index: 2
 }
 
-img {
+
+.cm-wrapper {
+    position: absolute;
+    background: rgb(235, 235, 235);
+    top: 99%;
+    left: 10%;
+    right: 10%;
+    height: 0px;
+    display: none;
+    transition: 0.5s;
+    font-size: 20px
+}
+
+#cm-content {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    transform: translate(-55%, -10%);
+}
+
+.cm-item {
+    position: relative;
+}
+
+
+.cm-back {
+    position: absolute;
+    color: black;
+    font-size: 60px;
+    top: 93%;
+    left: 43%;
+    margin: 0;
+    padding: 0;
+    display: none;
+    z-index: 2
+}
+
+.sk-wrapper {
+    position: absolute;
+    background: rgb(235, 235, 235);
+    top: 99%;
+    left: 10%;
+    right: 10%;
+    height: 0px;
+    display: none;
+    transition: 0.5s;
+    font-size: 20px
+}
+
+
+.sk-back {
+    position: absolute;
+    color: black;
+    font-size: 60px;
+    top: 93%;
+    left: 43%;
+    margin: 0;
+    padding: 0;
+    display: none;
+    z-index: 2
+}
+
+.Kusou {
     position: absolute;
     left: 40%;
     right: 40%;
     height: 200px;
-    width: 190px;
+    width: 180px;
+    margin: 10px;
     top: 7%;
     border-radius: 50%;
-    display: none;
+    display: none;   
+}
+
+#frontEnd-wrapper {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(-10%, -5%);
+}
+
+#backEnd-wrapper {
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    transform: translate(-45%, -5%);
+}
+
+#Fundamentals-wrapper {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    transform: translate(-10%, -5%);
+}
+
+.sk-title {
+    position: relative;
+    top: 5%;
+    left: 10%;
+    transform: translate(-5%, -0%);
+    z-index: 10;
+    color: rgb(55, 131, 231);
+}
+
+.skill-item {
+    display:inline-block;
+    position: relative;
+}
+
+.icon {
+    position: relative;
+    width: 60px;
+    display: inline-block;
     
 }
+
+.EX {
+}
+
+
 
 .projectPic {
     position: relative;
@@ -94,7 +244,7 @@ img {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -0%);
-    width: 60%;
+    width: 200px;
     top: 7%;
     border-radius: 5%;
     display: none;
@@ -110,6 +260,7 @@ img {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -0%);
+    margin: 0;
 }
 
 .pr-wrapper {
@@ -190,7 +341,7 @@ img {
     border-radius: 80%
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
     .am-wrapper {
         font-size: 20px
     }
@@ -203,12 +354,28 @@ img {
         font-size: 30px
     }
 
+    .cm-back {
+        font-size: 30px
+    }
+
+    .sk-back {
+        font-size: 30px
+    }
+
     .am {
+        font-size: 30px
+    }
+
+    .sk {
         font-size: 30px
     }
 
     .projects {
         font-size: 30px;
+    }
+
+    .cm {
+        font-size: 30px
     }
 
     .snow-mound {
@@ -223,6 +390,76 @@ img {
         height: 33%;
         bottom: -130px
     }
+
+
+
+
+    .sk-title {
+        font-size: 20px;
+    }
+
+    .icon {
+        width: 30px;
+    }
+
+    .skill-item {
+        font-size: 15px;
+    }
+
+    #EX {
+        font-size: 23px;
+    }
+
+    .projectPic {
+        width: 130px
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    .am {
+        font-size: 20px
+    }
+
+    .sk {
+        font-size: 20px
+    }
+
+    .projects {
+        font-size: 20px;
+    }
+
+    .cm {
+        font-size: 20px
+    }
+
+
+
+    .sk-title {
+        font-size: 10px;
+    }
+
+    .icon {
+        width: 15px;
+    }
+
+    .skill-item {
+        font-size: 8px;
+    }
+
+    #EX {
+        font-size: 13px;
+    }
+
+
+    .cm-item {
+        font-size: 20px;
+    }
+
+
 
 }
 
