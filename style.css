@@ -137,6 +137,7 @@ h2 {
 
 .cm-item {
     position: relative;
+    z-index: 300;
 }
 
 
