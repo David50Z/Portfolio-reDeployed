@@ -11,8 +11,14 @@ function disableScroll() {
   
 disableScroll()
 
+console.log($('h1').css('opacity'))
 
-
+$('h1').hover(function() {
+    if($('h1').css('opacity') == 0) {
+        $('h1').css('display', 'none')
+        console.log($('h1').css('opacity'))
+    }
+})
 
 
 $('.am').on('click', function() {
@@ -38,6 +44,7 @@ $('.am').on('click', function() {
 
 
 $('.am-back').on('click', function() {
+    $('h1').css('display', 'block')
     $('.Kusou').css('display', 'none')
     $('.am-text').css('display', 'none')
     $('.am-wrapper').css('transition', '0.7s')
@@ -76,6 +83,8 @@ $('.sk').on('click', function() {
 
 
 $('.sk-back').on('click', function() {
+    $('h1').css('display', 'block')
+    $('.sk-wrapper').css('display', 'none')
     $('.sk-wrapper').css('transition', '0.7s')
     $('.sk-wrapper').css('height', '1px')
     $('.sk-wrapper').css('top', '99%')
@@ -110,6 +119,7 @@ $('.cm').on('click', function() {
 
 
 $('.cm-back').on('click', function() {
+    $('h1').css('display', 'block')
     $('.cm-wrapper').css('transition', '0.7s')
     $('.cm-wrapper').css('height', '1px')
     $('.cm-wrapper').css('top', '99%')
@@ -145,6 +155,7 @@ $('.projects').on('click', function() {
 
 
 $('.pr-back').on('click', function() {
+    $('h1').css('display', 'block')
     $('.projectimg').css('display', 'none')
     $('.pr-wrapper').css('transition', '0.7s')
     $('.pr-wrapper').css('height', '0px')
